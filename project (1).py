@@ -1,3 +1,4 @@
+import streamlit as st
 def download_youtube_audio(url):
     try:
         ydl_opts = {
